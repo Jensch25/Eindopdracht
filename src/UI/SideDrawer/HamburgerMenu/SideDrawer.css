@@ -1,0 +1,48 @@
+.drawer {
+    height: 100vh;
+    width: 270px;
+    z-index: 1120;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    transition: all .3s;
+}
+
+.drawer .for-side {
+    display: flex !important;
+    margin-bottom: 54px;
+    flex-direction: column;
+}
+
+.closeBtn {
+    position: absolute;
+    right: 23px;
+    top: 15px;
+    width: 32px;
+    height: 32px;
+}
+
+.closeBtn:before, .closeBtn:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+
+.closeBtn:before {
+    transform: rotate(45deg);
+}
+
+.closeBtn:after {
+    transform: rotate(-45deg);
+}
+
+@media(max-width:768px) {
+    .drawer {
+        display: block;
+    }
+}

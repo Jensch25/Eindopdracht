@@ -1,0 +1,138 @@
+.form-group {
+    margin-bottom: 40px;
+}
+
+.input-form {
+    background: #07F8E9;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 70px;
+    padding: 18px 30px;
+    width: 100%;
+}
+.input-login {
+    background: #fff;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 50%);
+    border: 7px solid #07F8E9;
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+input::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #494847;
+}
+.input-login::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+.login-btn {
+    background-color: #07F8E9;
+    border: 0;color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    justify-content: center;
+    padding: 12px;
+}
+.submit-img {
+    width: 37px;
+    background: #894000;
+    border-radius: 50px;
+    padding: 2px;
+}
+.submit-img img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+.top-section {
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+.top-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-section .user-img {
+    width: 40px;
+    height: 40px;
+}
+.arrow-content {
+    display: flex;
+}
+.prev-arrow,.next-arrow {
+    width: 35px;
+}
+.prev-arrow img,.next-arrow img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.login-bg-blue {
+    border-right: 12px solid #07f8e9;
+    max-width: 615px;
+    border-bottom: 12px solid #07f8e9;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.login-main-content {
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+.login-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #894000;
+    margin-bottom: 5px;
+}
+.login-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #894000;
+    margin-bottom: 40px;
+}
+.login-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.login-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+.login-icon {
+    position: absolute;
+    width: 23px;
+    top: 16px;
+    display: inline-block;
+    left: 25px;
+}
+.sign-icon {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon {
+    width: 37px;
+    margin: 10px 5px 0;
+}
+

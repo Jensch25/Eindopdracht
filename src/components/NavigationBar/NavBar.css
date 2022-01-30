@@ -1,0 +1,138 @@
+.nav-profile .nav-profile-items{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-profile .nav-logoutBtn{
+    padding: 8px 20px;
+    background: #07F8E9;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all .3s;
+    border: 3px solid #07F8E9;
+}
+.nav-profile .nav-logoutBtn:hover{
+    background-color: #fff;
+    color: #111;
+}
+.top-section {
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+.top-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow-content {
+    display: flex;
+}
+.top-section .user-img {
+    width: 40px;
+    height: 40px;
+}
+.prev-arrow, .next-arrow {
+    width: 35px;
+}
+
+.prev-arrow img, .next-arrow img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    height: 78px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 6px -1px, rgba(0, 0, 0, 0.06) 0 2px 4px -1px;
+}
+
+.nav {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav>.nav-header {
+    display: inline;
+}
+
+.nav>.nav-header>.nav-title {
+    padding: 10px 10px 10px 10px;
+}
+
+.nav-item {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #894000;
+    text-decoration: none;
+    padding: 13px 16px 13px 10px;
+    position: relative;
+}
+
+.nav-item::after {
+    position: absolute;
+    content: '';
+    top: 85%;
+    left: 0;
+    background-color: #894000;
+    height: 3px;
+    width: 0;
+    transition: all .3s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.nav>.nav-btn {
+    display: none;
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+.user-img {
+    width: 51px;
+    height: 51px;
+}
+
+.user-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.side-nav{
+    display: none;
+}
+
+@media(max-width:768px){
+    .side-nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
