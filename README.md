@@ -2,16 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
 ![Project Image](src/assets/Home-page.jpeg)
 
-> Start creating your finest creations!
+> Start creating your finest!
 
 
 ### Table of Contents
 Your sections headers will be used to reference location of destination.
 
 - [Description](#description)
-- [How To Use](#how-to-use)
+- [How To Use](#built-with)
 - [References](#references)
 - [License](#license)
 - [Author Info](#author-info)
@@ -24,13 +25,21 @@ Having specific dietary wishes for my meals, (No pork, only fish with scales and
 
 This application compiles recipe(s) based upon the ingredient you put into the search field. The application also lets the user select from a list with different dietary options, (supplied by the FOOD API Edamam). By submitting your preferences, the application supplies recipe’s for your main course and presents the option to store 7 recipes in a recipe planner. The user has to be signed in to use the dietary recipe manager.
 
-#### Technologies
+#### Technologies: Built With
 
-- Node.js
+- NPM
+- Node
 - React
 - React Router V6
 - Axios
-- An editor (WebStorm)
+- Firebase Backend
+- Project editor (WebStorm)
+
+#### Future updates
+
+- [x] Reliable Storage // This is done
+- [ ] Enhancing Sidedrawer // This is pending
+
 
 [Back To The Top](#read-me-template)
 
@@ -39,8 +48,11 @@ This application compiles recipe(s) based upon the ingredient you put into the s
 
 #### API Reference
 
+[Recipe API Edamam] ( <https://www.edamam.com> "API")
+
+
 ```javascript
-       const createYourCreation = "A LIFE SAVER!!";
+       const createYourFinest = "A LIFE SAVER!!";
 ```
 [Back To The Top](#read-me-template)
 
@@ -48,7 +60,7 @@ This application compiles recipe(s) based upon the ingredient you put into the s
 
 ## References
 
-~ GitHub - [ Jensch25 ] ( https://github.com/Jensch25 )
+~ GitHub - [ Jensch25 ] ( <https://github.com/Jensch25> )
 
 ---
 
@@ -63,9 +75,9 @@ Copyright (c) [2022] [Jensch25]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
+in the Software without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, but not to sell
+copies of the Software, and not to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
@@ -85,7 +97,9 @@ SOFTWARE.
 
 ## Author Info
 
-~ GitHub - [ Jensch25 ] (https://github.com/Jensch25)
+**Jensch**
+
+~ GitHub - [ Jensch25 ] ( <https://github.com/Jensch25> "Jensch")
 
 [Back To The Top](#read-me-template)
 
