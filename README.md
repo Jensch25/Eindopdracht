@@ -1,4 +1,4 @@
-# Dietary Recipe Manager
+# <p align="center">Dietary Recipe Manager 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 > Start creating your finest!
 
 
-### Table of Contents
+### 🕊️ Table of Contents
 Your sections headers will be used to reference location of destination.
 
 - [Description](#description)
@@ -19,13 +19,13 @@ Your sections headers will be used to reference location of destination.
 
 ---
 
-## Description
+## 📜 Description
 
 Having specific dietary wishes for my meals, (No pork, only fish with scales and fins, No cow milk) I am always looking for ingredients that fit my diet. Planning my daily diner, means time-consuming, dissecting every product I use. This application will save you from all that.
 
 This application compiles recipe(s) based upon the ingredient you put into the search field. The application also lets the user select from a list with different dietary options, (supplied by the FOOD API Edamam). By submitting your preferences, the application supplies recipe’s for your main course and presents the option to store 7 recipes in a recipe planner. The user has to be signed in to use the dietary recipe manager.
 
-#### Technologies: Built With
+#### 🛠️ Technologies: Built With
 
 - NPM
 - Node
@@ -35,7 +35,7 @@ This application compiles recipe(s) based upon the ingredient you put into the s
 - Firebase Backend
 - Project editor (WebStorm)
 
-#### Future updates
+#### 🚀 Future updates
 
 - [x] Reliable Storage // This is done
 - [ ] Enhancing Sidedrawer // This is pending
@@ -46,7 +46,7 @@ This application compiles recipe(s) based upon the ingredient you put into the s
 ---
 
 
-#### API Reference
+#### 🍽️ API Reference
 
 [Recipe API Edamam] ( <https://www.edamam.com> "API")
 
@@ -58,9 +58,9 @@ This application compiles recipe(s) based upon the ingredient you put into the s
 
 ---
 
-## References
+## 🦁 References
 
-~ GitHub - [ Jensch25 ] ( <https://github.com/Jensch25> )
+~ GitHub - [ Novi Hogeschool ] ( <https://github.com/hogeschoolnovi/> )
 
 ---
 
@@ -95,7 +95,8 @@ SOFTWARE.
 
 ---
 
-## Author Info
+
+## 🦁 Author Info
 
 **Jensch**
 
@@ -103,7 +104,9 @@ SOFTWARE.
 
 [Back To The Top](#read-me-template)
 
-## Available Scripts
+
+
+## 👷 Available Scripts
 
 In the project directory, you can run:
 
